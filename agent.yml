@@ -10,8 +10,8 @@ custom:
   type: src
 user:
   agent_run_mode: standard
-  apikey: seU5zH68tQp4es3kmIOMhsanRBAUD6HFR2lnkDmhO
+  apikey: <ProjectKey>
   auto_update: true
   listen: []
   port: 19993
-  server: agent.ixia-sandbox.cloud
+  server: agent.ixia.cloud
