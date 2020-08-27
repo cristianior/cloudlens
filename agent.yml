@@ -1,0 +1,17 @@
+agent_flags:
+  agent_run_mode: standard
+  inc_net_buffsize: 1X
+  port: 19993
+custom:
+  name: Cristi
+  purpose: Demo
+  source: Azure
+  site: US-NY
+  type: src
+user:
+  agent_run_mode: standard
+  apikey: <Project Key>
+  auto_update: true
+  listen: []
+  port: 19993
+  server: agent.ixia.cloud
