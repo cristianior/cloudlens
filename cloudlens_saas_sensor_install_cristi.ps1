@@ -6,7 +6,7 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 $WebClient = New-Object System.Net.WebClient
 # --- install agent
 $agent_installer_path = "$download_folder\\CloudLensInstaller.exe"
-$agent_url="https://agent.ixia-sandbox.cloud/updates/windows/latest"
+$agent_url="https://agent.ixia.cloud/updates/windows/latest"
 $WebClient.DownloadFile($agent_url, $agent_installer_path)
 Start-Sleep -s 30
 Start-Process -FilePath $agent_installer_path -ArgumentList "/install /quiet Server_host=ixiacom/cloudlens-agent API_Key=$Project_Key"  -Wait
